@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    width: 800px;
+    height: 450px;
+    margin-left: 500px;
+    margin-right: 500px;
+    top: 50%;
+}
+
+.asidebar{
+    justify-content: space-around;
+    background-color: darkcyan;
+    height: 450px;
+    width: auto;
+}
+
+.contenido{
+    height: 450px;
+    width: auto;
+}
